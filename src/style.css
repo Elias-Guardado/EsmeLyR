@@ -1,0 +1,255 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-size: 48px;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #e3bcd5FF;
+}
+
+.nav{
+    padding-right: 45px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-size: 48px;
+    background-color: #a389b9;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    
+}
+
+.hero-text p{
+    margin: 5px 0;
+}
+
+.cta-btn{
+    background-color: #e3bcd5;
+    width: 315px;
+    height: 82px;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.cta-btn:hover{
+    transform: scale(1.2);
+}
+
+.quines-somos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.quines-somos h2{
+    font-size: 48px;
+}
+
+.quines-somos-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+.quines-somos-container img{
+    width: 536px;
+    height: 536px;
+    border-radius: 50%;
+}
+
+.descripcion{
+    width: 847px;
+    text-align: start;
+    font-size: 28px;
+}
+
+.ubicacion{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 18px;
+}
+
+.ubicacion h2{
+    font-size: 48px;
+}
+
+.ubicacion p{
+    font-size: 24px;
+}
+
+.map{
+    width: 1088px;
+    height: 711px;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.productos h2{
+    font-size: 48px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.card{
+    height: 518px;
+    width: 450px;
+    background-color: #e3bcd5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.card p{
+    font-size: 32px;
+    text-align: center;
+}
+
+.card img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    padding-top: 18px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 50px;
+    background-color: #e3bcd5;
+}
+
+.form-div{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-right: 45px;
+    margin-top: 125px;
+}
+
+.form button{
+    height: 40px;
+    width: 650px;
+    border-radius: 35px;
+    font-size: 28px;
+    cursor: pointer;
+    background-color: #a389b9;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.form button:hover{
+    transform: scale(1.2);
+}
+
+.input{
+    padding: 5px;
+    width: 650px;
+    height: 40px;
+    border-radius: 35px;
+    padding: 6px;
+    border: none;
+}
+
+
+.input-textarea{
+    width: 650px;
+    height: 100px;
+    border-radius: 15px;
+    border: none;
+    resize: none;
+    padding: 6px;
+}
+
+.img-contacto{
+    width: 652px;
+    height: 652px;
+}
+
+.form-img-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+.social-media{
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    background-color: #e3bcd5;
+    text-align: center;
+    padding: 17px;
+}
+p{
+    margin: 2px 0;
+}
+
+.copy{
+    font-size: 28px;
+}
