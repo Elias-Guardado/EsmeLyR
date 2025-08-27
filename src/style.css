@@ -162,20 +162,25 @@ h2{
     padding-top: 18px;
 }
 
-.form-container{
+.form-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     text-align: center;   
     justify-content: space-around;
     margin-top: 50px;
     gap: 50px;
     background-color: var(--color-primario);
+    padding: 20px;
 }
 
-.form-div{
+
+.form-div {
     display: flex;
     justify-content: center;
+    flex-direction: row;  
+    gap: 50px;
 }
+
 
 .form{
     display: flex;
@@ -253,4 +258,129 @@ p{
 
 .copy{
     font-size: 28px;
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .quines-somos-container {
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .quines-somos-container img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .descripcion {
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .map {
+        width: 90%;
+        height: auto;
+    }
+
+    .card {
+        width: 350px;
+        height: auto;
+    }
+
+    .card img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .form {
+        margin-top: 50px;
+        padding: 0;
+        align-items: center;
+    }
+
+    .form button,
+    .input,
+    .input-textarea {
+        width: 90%;
+    }
+
+    .img-contacto {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 32px;
+    }
+
+    .hero {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .cta-btn {
+        width: 80%;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .quines-somos-container img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .descripcion {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .map {
+        width: 100%;
+        height: auto;
+    }
+
+    .form-div {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .form {
+        margin-top: 25px;
+        padding: 0;
+        align-items: center;
+    }
+
+    .form button,
+    .input,
+    .input-textarea {
+        width: 90%;
+    }
+
+    .img-contacto {
+        width: 400px;
+        height: 400px;
+    }
 }
