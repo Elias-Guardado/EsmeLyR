@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EsmeLyR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/style.css">
 </head>
 
@@ -12,10 +15,10 @@
     <header class="header">
         <nav class="nav">
             <ul>
-                <li><a href="">Quiénes somos</a></li>
-                <li><a href="">Dónde estamos</a></li>
-                <li><a href="">Productos</a></li>
-                <li><a href="">Contactanos</a></li>
+                <li><a href="#who">Quiénes somos</a></li>
+                <li><a href="#where">Dónde estamos</a></li>
+                <li><a href="#product">Productos</a></li>
+                <li><a href="#social">Contactanos</a></li>
             </ul>
         </nav>
     </header>
@@ -28,7 +31,7 @@
         </div>
 
     </section>
-    <section class="quines-somos">
+    <section class="quines-somos" id="who">
         <h2>Quiénes somos</h2>
         <div class="quines-somos-container">
             <div class="descripcion">
@@ -49,14 +52,14 @@
             <img src="./src/img/vestido.png" alt="Mujer viendo un vestido">
         </div>
     </section>
-    <section class="ubicacion">
+    <section class="ubicacion" id="where">
         <h2>Dónde estamos</h2>
-        <p>Ofrecemos entregas en el area de Chalatenango y alrededores.</p>
+        <p>Ofrecemos entregas en el area de Chalatenango y alrededores (La ubicación presentada no representa la ubicacion real solo es una referencia de la zona de entregas)</p>
         <iframe class="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
             src="https://www.openstreetmap.org/export/embed.html?bbox=-88.9450%2C14.0300%2C-88.9250%2C14.0500&layer=mapnik&marker=14.0409,-88.9350">
         </iframe>
     </section>
-    <section class="productos">
+    <section class="productos" id="product">
         <h2>Productos</h2>
         <div class="card-container">
             <div class="card">
@@ -78,22 +81,23 @@
             </div>
         </div>
     </section>
-    <section class="form-container">
+    <section class="form-container" id="social">
         <h2>Contacto</h2>
         <div class="form-div">
             <form class="form" action="https://getform.io/f/bkkpneqb" method="post">
                 <input class="input" type="text" placeholder="Email" required>
                 <input class="input" type="text" placeholder="Nombre" required>
                 <input class="input" type="text" placeholder="Asunto" required>
-                <textarea class="input-textarea" name="mensaje" id=""
-                    placeholder="Aquí puedes escribir tu mensaje" required></textarea>
+                <textarea class="input-textarea" name="mensaje"  placeholder="Aquí puedes escribir tu mensaje"
+                    required></textarea>
                 <button>Enviar</button>
             </form>
             <div class="form-img-container">
                 <img class="img-contacto" src="./src/img/mensaje.png" alt="">
                 <div>
-                    <a href="http://wa.me/50377298960"><img class="social-media"  src="./src/img/whats.png" alt=""></a>
-                    <a href="https://www.facebook.com/share/1B28NwaJm4/?mibextid=wwXIfr"><img class="social-media"  src="./src/img/face.jpeg" alt=""></a>
+                    <a href="http://wa.me/50377298960"><img class="social-media" src="./src/img/whats.png" alt=""></a>
+                    <a href="https://www.facebook.com/share/1B28NwaJm4/?mibextid=wwXIfr"><img class="social-media"
+                            src="./src/img/face.jpeg" alt=""></a>
                 </div>
             </div>
         </div>
